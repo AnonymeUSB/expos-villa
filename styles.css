@@ -10,6 +10,7 @@
 
 body {
     background-color: #222;
+    overflow-x: hidden;
 }
 
 #b1 {
@@ -99,6 +100,15 @@ body {
 }
 
 #t2 {
+    position: absolute;
+    color: white;
+    font-family: "Reef";
+    font-size: 500%;
+    top: 20%;
+    left: 122%;
+}
+
+#t3 {
     position: absolute;
     color: white;
     font-family: "Reef";
