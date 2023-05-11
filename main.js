@@ -63,6 +63,21 @@ function Next() {
                 }, 10)
             }
 
+            //
+            document.getElementById("dot1").addEventListener("click", () => {
+                window.open("3.html",
+                    "=)","menubar=no, status=no, scrollbars=no, menubar=no, width=700, height=400")
+            });
+            document.getElementById("dot2").addEventListener("click", () => {
+                window.open("32.html",
+                    "=)","menubar=no, status=no, scrollbars=no, menubar=no, width=700, height=400")
+            });
+            document.getElementById("dot3").addEventListener("click", () => {
+                window.open("images/23.jpg",
+                    "=)","menubar=no, status=no, scrollbars=no, menubar=no, width=700, height=400")
+            });
+            //  
+
             break
         default:
             alert("erreur")
