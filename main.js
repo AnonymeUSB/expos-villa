@@ -1,6 +1,8 @@
+
 var t1 = document.getElementById("t1")
 var t2 = document.getElementById("t2")
 var t3 = document.getElementById("t3")
+var t4 = document.getElementById("t4")
 sessionStorage.setItem("diapo", parseInt(1))
 
 function Next() {
@@ -59,6 +61,7 @@ function Next() {
                     else {
                         //t2.style.left = x42
                         sessionStorage.setItem("diapo", parseInt(3))
+                        
                     }
                 }, 10)
             }
@@ -73,7 +76,45 @@ function Next() {
                     "=)","menubar=no, status=no, scrollbars=no, menubar=no, width=700, height=400")
             });
             document.getElementById("dot3").addEventListener("click", () => {
-                window.open("images/23.jpg",
+                window.open("images/34.png",
+                    "=)","menubar=no, status=no, scrollbars=no, menubar=no, width=700, height=400")
+            });
+            //  
+
+            break
+            case "3":
+            var x = t3.offsetLeft;
+            var x2 = t4.offsetLeft;
+            sessionStorage.setItem("x", x)
+            const x33 = x
+            const x43 = x2
+                for (counter=x;counter!=0;counter-=1){
+                    setInterval(() => {
+                    if (t4.offsetLeft > x33) {
+                    t3.style.left = counter
+                    t4.style.left = x2;
+                    //console.log(counter)
+                    counter-=0.1
+                    x2-=0.1
+                    }
+                    else {
+                        //t2.style.left = x43
+                        sessionStorage.setItem("diapo", parseInt(4))
+                    }
+                }, 10)
+            }
+
+            //
+            document.getElementById("dot1").addEventListener("click", () => {
+                window.open("3.html",
+                    "=)","menubar=no, status=no, scrollbars=no, menubar=no, width=700, height=400")
+            });
+            document.getElementById("dot2").addEventListener("click", () => {
+                window.open("32.html",
+                    "=)","menubar=no, status=no, scrollbars=no, menubar=no, width=700, height=400")
+            });
+            document.getElementById("dot3").addEventListener("click", () => {
+                window.open("images/34.png",
                     "=)","menubar=no, status=no, scrollbars=no, menubar=no, width=700, height=400")
             });
             //  
